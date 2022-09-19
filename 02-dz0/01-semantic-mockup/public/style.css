@@ -1,0 +1,35 @@
+header {
+    background-color: aquamarine;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: orange;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin-right: 15px;
+}
+
+main {
+    background-color: green;
+}
+
+article {
+    background-color: blue;
+}
+
+footer {
+    text-align: center;
+    font-size: 24px;
+    background-color: red;
+}
+
