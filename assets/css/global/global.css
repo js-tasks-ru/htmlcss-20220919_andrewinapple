@@ -1,0 +1,32 @@
+html {
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+/* Footer to the bottom code start */
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+/* Footer to the bottom code end */
+
+/* To center the content inside blocks */
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
