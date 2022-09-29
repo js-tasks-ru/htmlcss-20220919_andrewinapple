@@ -1,0 +1,5 @@
+/* To center the content inside blocks */
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}

@@ -1,0 +1,4 @@
+/* Pushing footer to the bottom */
+.content {
+    flex: 1 0 auto;
+}

@@ -1,0 +1,9 @@
+.header {
+    
+}
+
+.header__title {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-top: 96px;
+}
