@@ -9,11 +9,12 @@
     border-radius: 8px;
     border: none;
     box-sizing: border-box;
+    cursor: pointer;
+    height: 48px;
 }
 
 
 .button:hover {
-    cursor: pointer;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
