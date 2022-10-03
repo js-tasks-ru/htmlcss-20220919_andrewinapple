@@ -1,1 +1,48 @@
 /* Стилизация аккордеона */
+/* Including font here only because this homework is all about accordion */
+
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* <details> element */
+.accordion {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    width: 730px;
+    position: relative;
+}
+
+/* <summary> element */
+.accordion__title {
+    cursor: pointer;
+    margin-left: 32px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    list-style: none;
+}
+
+.accordion__title:after {
+    content: url('img/Vectorarrow.svg');
+    position: absolute;
+    right: 32px;
+    top: 19px;
+}
+
+.accordion[open] .accordion__title:after {
+    rotate: 180deg;
+}
+
+
+.accordion__el {
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+
+.accordion__el:last-child {
+    margin-bottom: 0px;
+}
