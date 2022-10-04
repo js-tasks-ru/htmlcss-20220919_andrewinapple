@@ -1,0 +1,14 @@
+.product {
+    width: 350px;
+    height: 367px;
+    margin-bottom: 30px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.product__title {
+    text-align: center;
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
