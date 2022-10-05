@@ -2,8 +2,16 @@
 /* Including font here only because this homework is all about accordion */
 
 /* Font */
+@import 'fonts.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* Styles for accordion as if it is child for external positioning*/
+.accordion__unit {
+    margin-bottom: 8px;
+}
+
+.accordion__unit:last-child {
+    margin-bottom: 0px;
+}
 
 /* <details> element */
 .accordion {
@@ -13,7 +21,7 @@
     font-weight: 400;
     border: 1px solid #ACB5BD;
     border-radius: 8px;
-    width: 730px;
+    max-width: 730px;
     position: relative;
 }
 
@@ -22,7 +30,7 @@
     cursor: pointer;
     margin-left: 32px;
     margin-top: 24px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     list-style: none;
 }
 
@@ -37,12 +45,16 @@
     rotate: 180deg;
 }
 
+.accordion[open] .accordion__title{
+    margin-bottom: 16px;
+}
 
+/* <p> element */
 .accordion__el {
     margin-left: 32px;
     margin-bottom: 32px;
 }
 
-.accordion__el:last-child {
-    margin-bottom: 0px;
+.accordion[open] .accordion__el{
+    margin-bottom: 24px;
 }
