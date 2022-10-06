@@ -4,17 +4,13 @@
 /* Font */
 @import 'fonts.css';
 
-/* Styles for accordion as if it is child for external positioning*/
-.accordion__unit {
-    margin-bottom: 8px;
-}
+/* wrapper for <details> element */
+.accordion {
 
-.accordion__unit:last-child {
-    margin-bottom: 0px;
 }
 
 /* <details> element */
-.accordion {
+.accordion__item {
     display: block;
     font-family: 'Inter';
     font-style: normal;
@@ -23,7 +19,9 @@
     border-radius: 8px;
     max-width: 730px;
     position: relative;
+    margin-bottom: 8px;
 }
+
 
 /* <summary> element */
 .accordion__title {
