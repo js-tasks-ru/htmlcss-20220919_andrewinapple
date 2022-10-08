@@ -1,5 +1,4 @@
 /* Стилизация аккордеона */
-/* Including font here only because this homework is all about accordion */
 
 /* Font */
 @import 'fonts.css';
@@ -20,15 +19,13 @@
     max-width: 730px;
     position: relative;
     margin-bottom: 8px;
+    padding: 24px 32px;
 }
 
 
 /* <summary> element */
 .accordion__title {
     cursor: pointer;
-    margin-left: 32px;
-    margin-top: 24px;
-    margin-bottom: 24px;
     list-style: none;
 }
 
@@ -39,18 +36,21 @@
     top: 19px;
 }
 
-.accordion[open] .accordion__title:after {
+.accordion__item[open] .accordion__title:after {
     rotate: 180deg;
 }
 
-.accordion[open] .accordion__title{
-    margin-bottom: 16px;
+.accordion__item[open] .accordion__title{
+    margin-bottom: 32px;
+}
+
+.accordion__content {
+    
 }
 
 /* <p> element */
 .accordion__el {
-    margin-left: 32px;
-    margin-bottom: 32px;
+    margin-top: 16px;
 }
 
 .accordion[open] .accordion__el{
