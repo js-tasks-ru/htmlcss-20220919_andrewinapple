@@ -1,7 +1,5 @@
 /* Стилизация аккордеона */
 
-/* Font */
-@import 'fonts.css';
 
 /* wrapper for <details> element */
 .accordion {
