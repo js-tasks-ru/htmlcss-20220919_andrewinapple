@@ -1,1 +1,56 @@
 /* Стилизация аккордеона */
+
+
+/* wrapper for <details> element */
+.accordion {
+
+}
+
+/* <details> element */
+.accordion__item {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    max-width: 730px;
+    position: relative;
+    margin-bottom: 8px;
+    padding: 24px 32px;
+}
+
+
+/* <summary> element */
+.accordion__title {
+    cursor: pointer;
+    list-style: none;
+}
+
+.accordion__title:after {
+    content: url('img/Vectorarrow.svg');
+    position: absolute;
+    right: 32px;
+    top: 19px;
+}
+
+.accordion__item[open] .accordion__title:after {
+    rotate: 180deg;
+}
+
+.accordion__item[open] .accordion__title{
+    margin-bottom: 32px;
+}
+
+.accordion__content {
+    
+}
+
+/* <p> element */
+.accordion__el {
+    margin-top: 16px;
+}
+
+.accordion[open] .accordion__el{
+    margin-bottom: 24px;
+}
