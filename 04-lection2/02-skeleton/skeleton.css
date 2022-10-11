@@ -26,21 +26,24 @@
     height: 20px;
 }
 
-.skeleton__heading-text-area {}
+.skeleton__heading-text-area {
+    width: 100%;
+}
 
 .skeleton__elem_short {
-    width: 172px;
+    width: 33%;
     margin-bottom: 8px;
 }
 
 .skeleton__elem_medium {
-    width: 257px;
+    width: 50%;
 }
 
 .skeleton__elem_long {
-    width: 515px;
+    width: 100%;
 }
 
-.skeleton__elem_long:first-child {
+
+.skeleton__paragraphs .skeleton__elem_long:first-child {
     margin-bottom: 8px;
 }
