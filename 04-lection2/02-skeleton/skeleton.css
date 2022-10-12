@@ -1,0 +1,49 @@
+.skeleton {
+    --grey: #DDE2E5;
+    padding: 24px 40px 32px 24px;
+    border: 1px solid var(--grey);
+    border-radius: 8px;
+}
+
+.skeleton__headings {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.skeleton__elem {
+    background-color: var(--grey);
+}
+
+.skeleton__elem_circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    margin-right: 16px;
+}
+
+.skeleton__elem_text {
+    height: 20px;
+}
+
+.skeleton__heading-text-area {
+    width: 100%;
+}
+
+.skeleton__elem_short {
+    width: 33%;
+    margin-bottom: 8px;
+}
+
+.skeleton__elem_medium {
+    width: 50%;
+}
+
+.skeleton__elem_long {
+    width: 100%;
+}
+
+
+.skeleton__paragraphs .skeleton__elem_long:first-child {
+    margin-bottom: 8px;
+}
