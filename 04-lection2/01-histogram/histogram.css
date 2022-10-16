@@ -39,12 +39,13 @@
 
 .histogram__columns {
     margin-top: 39px;
+    display: flex;
+    align-items: flex-end;
+    gap: 1px;
 }
 
 /* Element of histogram */
 .histogram__column {
-    display: inline-block;
-    width: 9px;
-    margin: 0 1px 0 0;
+    flex-basis: 9px;
     background-color: var(--histogram-column);
 }
