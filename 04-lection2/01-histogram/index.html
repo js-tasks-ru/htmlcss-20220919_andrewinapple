@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <!-- Страница с гистограммой -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./histogram.css">
-    </head>
-    <body>
 
-    </body>
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./histogram.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+
+<body>
+    <div class="histogram">
+        <div class="histogram__titles">
+            <div class="histogram__digits">
+                <h3 class="histogram__heading">
+                    Total orders
+                </h3>
+                <h3 class="histogram__summary">
+                    50254
+                </h3>
+            </div>
+            <a href="#" class="histogram__link">
+                View all
+            </a>
+        </div>
+        <div class="histogram__columns">
+            
+        </div>
+    </div>
+    <script>
+        let wrapper = document.getElementsByClassName('histogram__columns')[0];
+        for (let i = 0; i < 30; i++) {
+            let child = document.createElement('div');
+            child.style.height = `${Math.random() * 51}px`;
+            child.setAttribute('class', 'histogram__column');
+            wrapper.appendChild(child);
+        }
+    </script>
+</body>
+
 </html>
