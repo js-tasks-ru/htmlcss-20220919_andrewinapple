@@ -10,12 +10,10 @@
     modalOpen.addEventListener('click', () => {
         modal.style.display = 'block';
         document.body.overflow = 'hidden';
-        document.body.style.backgroundColor = '#C4C4C4';
     });
 
     close.addEventListener('click', () => {
         modal.style.display = 'none';
         document.body.overflow = 'initial';
-        document.body.style.backgroundColor = '#FFFFFF';
     });
 })();
