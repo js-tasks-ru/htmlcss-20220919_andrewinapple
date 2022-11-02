@@ -3,3 +3,9 @@
     flex-wrap: wrap;
     gap: 30px 30px;
 }
+
+@media screen and (max-width: 375px) {
+    .products-wrapper {
+        gap: 23px 16px;
+    }
+}
