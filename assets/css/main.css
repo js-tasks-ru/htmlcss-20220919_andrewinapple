@@ -10,6 +10,8 @@
 @import '../../components/products-wrapper/products-wrapper.css';
 @import '../../components/main/main.css';
 @import '../../components/button/button.css';
+@import '../../components/logo/logo.css';
+@import '../../components/calendar/calendar.css';
 
 :root {
 

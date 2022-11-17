@@ -2,9 +2,27 @@
     
 }
 
+.header__top-section {
+    display: flex;
+}
+
 .header__title {
     font-size: 3rem;
     line-height: 4rem;
     margin-top: 96px;
     margin-bottom: 77px;
+}
+
+@media screen and (max-width: 375px) {
+    .header__top-section {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__title {
+        font-size: 28px;
+        line-height: 38px;
+        margin-top: 48px;
+        margin-bottom: 69px;
+    }
 }
